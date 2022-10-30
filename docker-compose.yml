@@ -1,0 +1,8 @@
+version: "2"
+services:
+  terbium:
+    restart: unless-stopped
+    image: "motortruck1221/ludicrous"
+    ports:
+      #IMPORTANT: CHANGE <your port here> to the port you want removing the <> around it. DO NOT UNDER ANY CIRCUMSTANCES CHANGE :1234!
+      - <your port here>:1234
